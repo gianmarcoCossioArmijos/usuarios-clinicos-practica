@@ -80,7 +80,7 @@ import { useNavigate } from 'react-router-dom';
                   className='w-full p-3 bg-slate-200 rounded-lg text-black'
                   placeholder='Ingresar Carrera'
                   onChange={handleChange}
-                  />
+                  required/>
           </label>
 
           <label>
@@ -92,7 +92,7 @@ import { useNavigate } from 'react-router-dom';
                   className='w-full p-3 bg-slate-200 rounded-lg text-black'
                   placeholder='Ingresar Ciclo'
                   onChange={handleChange}
-                  />
+                  required/>
           </label>
 
           <label>
@@ -104,7 +104,7 @@ import { useNavigate } from 'react-router-dom';
                   className='w-full p-3 bg-slate-200 rounded-lg text-black'
                   placeholder='Ingresar Tipo de Sangre'
                   onChange={handleChange}
-                  />
+                  required/>
           </label>
           
           <button
